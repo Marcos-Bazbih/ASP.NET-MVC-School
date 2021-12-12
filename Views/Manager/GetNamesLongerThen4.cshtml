@@ -1,0 +1,10 @@
+﻿
+<div>
+    @foreach (string item in ViewBag.lastNames)
+    {
+        if (item.Length > 4)
+        {
+            <h4>@item</h4>
+        }
+    }
+</div>
